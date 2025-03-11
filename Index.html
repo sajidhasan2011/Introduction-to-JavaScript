@@ -2,20 +2,38 @@
 <html lang="en">
   <head>
     <title>Document</title>
+    <style>
+      body {
+        color: azure;
+        background-color: black;
+      }
+    </style>
   </head>
   <body>
-    <h1 id="myH"></h1>
-    <p id="myP"></p>
+    <center>
+      <h1 id="myH" style="box-shadow: 3px 3px 13px red"></h1>
+      <p id="myP"></p>
 
-    <h1>Javascript Variables</h1>
-    <h3>Sum of Two Nummbers</h3>
-    <p id="sum"></p>
-    <h3>Subtraction of Two Nummbers</h3>
-    <p id="sub"></p>
-    <h3>Multiplication of Two Nummbers</h3>
-    <p id="mult"></p>
-    <h3>Division of Two Nummbers</h3>
-    <p id="div"></p>
+      <h1 style="box-shadow: 3px 2px 12px rgb(0, 255, 21)">
+        Javascript Variables
+      </h1>
+      <h3 style="text-shadow: 3px 2px 8px rgb(1, 1, 255)">
+        Sum(+) of Two Nummbers
+      </h3>
+      <p id="sum"></p>
+      <h3 style="text-shadow: 3px 2px 8px rgb(43, 255, 0)">
+        Subtraction(-) of Two Nummbers
+      </h3>
+      <p id="sub"></p>
+      <h3 style="text-shadow: 3px 2px 8px rgb(208, 255, 0)">
+        Multiplication(x) of Two Nummbers
+      </h3>
+      <p id="mult"></p>
+      <h3 style="text-shadow: 3px 2px 8px rgb(17, 0, 255)">
+        Division(÷) of Two Nummbers
+      </h3>
+      <p id="div"></p>
+    </center>
     <script>
       document.getElementById("myH").innerHTML = "Introduction to Javascript";
       document.getElementById("myP").innerHTML =
@@ -27,7 +45,7 @@
       sub = x - y;
       mult = x * y;
       div = x / y;
-      document.getElementById("sum").innerHTML = `Baba ${sum} taka`;
+      document.getElementById("sum").innerHTML = `Baba ${sum} taka `;
       document.getElementById("sub").innerHTML = `Baba ${sub} taka`;
       document.getElementById("mult").innerHTML = `Baba ${mult} taka`;
       document.getElementById("div").innerHTML = `Baba ${div} taka`;
